@@ -1,23 +1,32 @@
-head{
+head {
+    
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    text-align: center;
 }
 
 
-title{
-    display: flex;
-    flex-direction: center;
+header {
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
     font size: 48pt;
     font-style: bold;
+    border-radius: 40pt;
 }
 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-img{
+img {
     display: flex;
-    flex-direction: center;
+    flex: center;
     max-width:50%;
     object-fit: contain;
+}
+
+h1 {
+    
 }
