@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     color: var(--text-color);
 }
 
@@ -37,6 +37,8 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    flex-wrap: wrap;
+    border: 1px #fff solid;
 }
 
 
@@ -58,20 +60,78 @@ header {
     color: var(--main-color);
 }
 
-
-ul li {
-    color: white;
+.about {
+    /* display: flex; */
+    background-color: var(bg-color);
+    text-align: center;
+    /* margin: 100px; */
 }
 
+.title {
+    text-align: center;
+    font-size: 2.0rem;
+    margin: 10pt;
+    border: #fff solid 1pt;
+}
 
+/* h2 {
+    font-size: 2.0rem;
+    margin: 10pt;
+    border: #fff solid 1pt;
+} */
 
-img {
+h2 p {
     display: flex;
     justify-content: center;
-    max-width:50%;
-    object-fit: contain;
+    font-size: 1.8rem;
+    
+  
 }
 
-h1 {
-    
+.cover-photo {
+    max-width:40%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-top: 60pt;
+    border: #fff solid 1pt;
+    flex-wrap: wrap;
+}
+
+/* h3 {
+    text-align: center;
+    font-size: 2.0rem;
+    margin: 10pt;
+    border: #fff solid 1pt;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2.0rem;
+    margin: 10pt;
+    border: #fff solid 1pt;
+} */
+
+.work {
+margin: 10pt;
+}
+
+.challenge-1 {
+    max-width:40%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    text-align: center;
 }
