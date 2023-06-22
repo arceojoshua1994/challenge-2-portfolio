@@ -54,6 +54,7 @@ header {
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
+    
 }
 
 .navbar a:hover, .navbar a:active {
@@ -64,6 +65,9 @@ header {
     /* display: flex; */
     background-color: var(bg-color);
     text-align: center;
+    /* display: inline;
+    display: flex;
+    justify-content: space-between; */
     /* margin: 100px; */
 }
 
@@ -72,6 +76,9 @@ header {
     font-size: 2.0rem;
     margin: 10pt;
     border: #fff solid 1pt;
+    /* display: inline;
+    display: flex;
+    justify-content: space-between; */
 }
 
 /* h2 {
@@ -96,7 +103,7 @@ h2 p {
     margin-right: auto;
     padding: 10px;
     padding-top: 60pt;
-    border: #fff solid 1pt;
+    /* border: #fff solid 1pt; */
     flex-wrap: wrap;
 }
 
@@ -115,11 +122,23 @@ h4 {
 } */
 
 .work {
-margin: 10pt;
+    margin: 10pt;
+    /* display: inline-block;
+    display: flex;
+    justify-content: space-between; */
 }
 
 .challenge-1 {
-    max-width:30%;
+    max-width:75%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.challenge-2 {
+    max-width:25%;
     object-fit: contain;
     display: block;
     margin-left: auto;
@@ -127,6 +146,7 @@ margin: 10pt;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    border: #fff solid 2pt;
 }
 
 .contact-info {
@@ -135,8 +155,9 @@ margin: 10pt;
     /* align-items: center; */
     text-align: center;
     color: #fff;
+    margin: 15pt;
 }
 
 a {
-    color: #fff;
+    color: #fff; 
 }
