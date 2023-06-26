@@ -2,12 +2,10 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- The motivation was to build a codebase that follows accessibility standards.
-- Make sure the site is optimized for search engines.
-- Add semantic elements as well as refactor the code.
-- I learned how to refactor code efficiently.
+- The motivation was to build a portfolio to display the projects I have worked on.
+- Make sure the site is fully operational and matches the layout of the mock-up.
+- Use CSS and Javascript to add aesthetics and functionality to the application.
+- I learned how to build an application without a starter code and add CSS and Javascript to manipulate the webpage and enhance user interaction.
 
 ## Table of Contents (Optional)
 
@@ -18,11 +16,15 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-N/A
+![Alt text](assets/images/Screenshot%202023-06-20%20at%209.22.59%20PM.png)
 
 ## Usage
 
-This is the link: https://github.com/arceojoshua94/challenge1-code-refactoring
+This is the link to the application's repository: 
+ https://github.com/arceojoshua1994/challenge-2-portfolio
+
+This is the link to the live application:
+ https://arceojoshua1994.github.io/challenge-2-portfolio/ 
 
 ## Credits
 
