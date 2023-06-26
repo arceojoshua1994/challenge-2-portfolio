@@ -4,14 +4,14 @@ let navLinks = document.querySelectorAll('navbar');
 window.onscroll = () => {
   sections.forEach(sec => {
     let top = window.scrollY;
-    let offset = sec.offsetTop;
+    let offset = sec.offsetTop - 150;
     let height = sec.offsetHeight;
-    let class = sec.getAttribute('class');
+    let id = sec.getAttribute('id');
     
     if(top >= offset && top < offset + height) {
       navLinks.forEach(links => {
         links.classList.remove('active');
-        document.querySelector('navbar [href*=' + class + ']').classList.add ('active');  
+        document.querySelector('navbar [href*=' + id + ']').classList.add ('active');  
       });
     };
   });
