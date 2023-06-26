@@ -1,12 +1,12 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   text-decoration: none;
-   border: none;
-   outline: none;
-   scroll-behavior: smooth;
-   font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -60,10 +60,11 @@ header {
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
-    
+
 }
 
-.navbar a:hover, .navbar a:active {
+.navbar a:hover,
+.navbar a:active {
     color: var(--main-color);
 }
 
@@ -97,7 +98,7 @@ h2 p {
 }
 
 .cover-photo {
-    max-width:40%;
+    max-width: 40%;
     object-fit: contain;
     display: block;
     margin-left: auto;
@@ -115,7 +116,7 @@ h2 p {
 }
 
 .challenge-1 {
-    max-width:75%;
+    max-width: 75%;
     object-fit: contain;
     display: block;
     margin-top: 50pt;
@@ -167,7 +168,9 @@ h2 p {
     font-size: 24pt;
 }
 
-.challenge-1-title:hover, .challenge-2-title:hover, .challenge-3-title:hover {
+.challenge-1-title:hover,
+.challenge-2-title:hover,
+.challenge-3-title:hover {
     border: 2.5pt solid goldenrod;
 }
 
@@ -208,5 +211,5 @@ h5 {
 }
 
 a {
-    color: #fff; 
+    color: #fff;
 }

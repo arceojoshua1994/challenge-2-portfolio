@@ -16,3 +16,5 @@ window.onscroll = () => {
     };
   });
 };
+
+// Notes and takeaways: The code above enables the UI to scroll to corresponding sections when the sections are clicked in the navbar.
