@@ -90,7 +90,7 @@ h2 p {
 }
 
 .about-me {
-    font-size: 18pt;
+    font-size: 12pt;
     margin-top: 50pt;
     margin-left: 75pt;
     margin-right: 75pt;
@@ -200,6 +200,7 @@ h5 {
     text-align: center;
     color: #fff;
     margin: 50pt;
+    font-size: 12pt;
 }
 
 #contact:hover {
