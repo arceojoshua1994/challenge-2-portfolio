@@ -1,77 +1,130 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <title>Portfolio</title>
+    <title>Joshua Arceo's Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1 class="logo">Joshua Arceo</h1>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
-            <a href="#resume">Resume</a>
+        <h1 class="title is-1 has-text-centered has-text-primary">Joshua Arceo</h1>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-menu is-active">
+                <a href="#home" class="navbar-item">Home</a>
+                <a href="#about" class="navbar-item">About</a>
+                <a href="#work" class="navbar-item">Work</a>
+                <a href="#contact" class="navbar-item">Contact</a>
+                <a href="#resume" class="navbar-item">Resume</a>
+            </div>
         </nav>
     </header>
-    <figure id="home">
-        <img src="./assets/images/IMG_1973.JPG" class="cover-photo" alt="">
-    </figure>
-    <section id="about">
-        <h2 class="title">About Me</h2>
-        <p class="about-me">
-            Hello, my name is Joshua Arceo and I am a Music Producer, Song Writer, Sushi/Hibachi Chef, Muay Thai
-            practitioner and aspiring Full-Stack Developer.
-            I'm currently taking the Coding Bootcamp at the University of Miami as well as studying Software and Web
-            Development at Broward College in hopes of starting a career in coding.
-            Although I don't have many applications to display at this time; this portfolio presents some of the
-            projects I've worked on so far on my journey to learning more about coding.
-        </p>
-    </section>
-    <section id="work">
-        <h3 class="title">Work</h3>
-        <div>
-            <figure>
-                <a href="https://  arceojoshua1994.github.io/ challenge-1-code-refactoring/ "><img
-                        src="./assets/images/Screenshot 2023-06-20 at 8.10.01 PM.png" class="challenge-1"></a>
-                <p class="challenge-1-title">Challenge 1</p>
-            </figure>
 
+<body>
+    <div class="container">
+        <section id="home" class="section">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="./assets/images/IMG_1973.JPG" class="cover-photo" alt="">
+                    </figure>
+                </div>
+                <div class="card-content has-text-centered">
+                    <div class="content">
+                        <h2 class="title is-3 has-text-primary">About Me</h2>
+                        <p class="about-me">
+                            Hello, my name is Joshua Arceo. When I'm not producing music or cooking up a storm in the kitchen, I'm busy throwing code like a pro. I'm currently enrolled in the Coding Bootcamp at the University of Miami and studying Software and Web Development at Broward College. I'm on a mission to cook up some amazing software applications!
+                        </p>
+                        <div class="buttons is-centered">
+                            <a href="https://www.instagram.com/your_instagram/" class="button is-primary" target="_blank">Instagram</a>
+                            <a href="https://open.spotify.com/user/your_username" class="button is-primary" target="_blank">Spotify</a>
+                            <a href="https://github.com/your_username" class="button is-primary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <h5>
+        <section id="work" class="section">
+            <h2 class="title is-3 has-text-centered has-text-primary">Work</h2>
+            <div class="columns is-multiline">
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/Screenshot 2023-06-20 at 8.10.01 PM.png" alt="Work 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>Challenge 1</p>
+                                <a href="#" class="button is-primary is-fullwidth">Visit Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/Screenshot 2023-06-20 at 9.22.59 PM.png" alt="Work 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>Challenge 2</p>
+                                <a href="#" class="button is-primary is-fullwidth">Visit Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/Screenshot 2023-08-03 at 10.17.16 PM.png" alt="Work 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>Project 1: Cruise Control</p>
+                                <a href="#" class="button is-primary is-fullwidth">Visit Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/images/Screenshot 2023-10-02 at 9.12.57 PM.png" alt="Work 4">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>Project 2: Recipeasy</p>
+                                <a href="#" class="button is-primary is-fullwidth">Visit Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <figure>
-                    <img src="./assets/images/Screenshot 2023-06-20 at 9.22.59 PM.png" class="challenge-2" alt="">
-                    <p class="challenge-2-title">Challenge 2</p>
-                </figure>
-
-
-                <figure>
-                    <img src="./assets/images/Screenshot 2023-08-03 at 10.17.16 PM.png" class="challenge-2" alt="">
-                    <p class="challenge-3-title">Project 1: Cruise Control</p>
-                </figure>
-
-            </h5>
-        </div>
-    </section>
-
-    <h4 class="title">Contact Me</h4>
-    <section id="contact">
-        <li><a href="">Phone: 407-340-1038</a></li>
-        <li><a href="">E-mail: arceojoshua94@outlook.com</a></li>
-        <li><a href="">GitHub</a></li>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">Spotify</a></li>
-    </section>
-
-    <script src="javasscript.js"></script>
+        <section id="contact" class="section">
+            <h1 class="title is-3 has-text-centered has-text-primary">Contact Me</h2>
+            <div class="columns is-centered">
+                <div class="column is-one-third">
+                    <p class="is-size-5"><strong>Phone:</strong> <a href="tel:407-340-1038">407-340-1038</a></p>
+                    <p class="is-size-5"><strong>Email:</strong> <a href="mailto:arceojoshua94@outlook.com">arceojoshua94@outlook.com</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+  
 </body>
 
 </html>
